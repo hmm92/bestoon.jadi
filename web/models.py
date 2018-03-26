@@ -23,3 +23,4 @@ class Income(models.Model):
 
     def __unicode__(self):
         return "{},{}".format(self.date , self.amount)
+        
